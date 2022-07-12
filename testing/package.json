@@ -6,12 +6,14 @@
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack",
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "webhint": "hint http://localhost:8080"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@hint/utils-dom": "^2.2.0",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
     "eslint": "^7.32.0",
