@@ -1,5 +1,5 @@
 const capitalize = require('./capitalize.js');
-const strings = ['Romina', 'testing', 'asdfghjk', '!', ' '];
+const strings = ['romina', 'testing', 'asdfghjk', '!', ' '];
 
 
 describe.each(strings)(`check if string is capitalized`, (string) => {
